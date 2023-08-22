@@ -1,5 +1,5 @@
 package authenticationService
 
 type IAuthenticationService interface {
-	IsValidToken() bool
+	IsValidToken(token string) bool
 }
